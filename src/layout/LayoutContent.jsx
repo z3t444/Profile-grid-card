@@ -3,6 +3,7 @@ import HeaderSection from "../content/section/Header";
 import ProfileCard from "../content/section/Profile";
 import Calendars from "../content/section/Calendars";
 import SocialStatic from "../content/section/SocialCard";
+import CommunityCard from "../content/section/CommunityCard";
 
 // center
 
@@ -22,6 +23,7 @@ function LayoutContent() {
           <ProfileCard />
           <Calendars />
           <SocialStatic />
+          <CommunityCard />
         </div>
         <div>{/* center */}</div>
         <div>{/* right */}</div>
