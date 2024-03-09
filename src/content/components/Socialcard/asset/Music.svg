@@ -1,0 +1,12 @@
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<path d="M47 0L47 0L47 47L0 47L0 0L47 0Z" id="path_1" />
+		<clipPath id="clip_1">
+			<use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+		</clipPath>
+	</defs>
+	<g id="Music">
+		<path d="M47 0L47 0L47 47L0 47L0 0L47 0Z" id="Music" fill="none" stroke="none" />
+		<path d="M32.9862 4.72819L22.8436 6.89959C21.3991 7.20822 20.3667 8.48505 20.3667 9.96242L20.3667 27.7504C20.3667 30.8038 10.9667 28.2517 10.9667 36.7838C10.9667 38.3504 11.9098 42.2984 16.3967 42.2984C21.9114 42.3 23.5 38.1076 23.5 33.4546C23.5 31.4634 23.5 14.9429 23.5 14.9429L33.0253 12.8529C33.8666 12.6681 34.4667 11.9223 34.4667 11.0591L34.4667 5.92512C34.4667 5.14492 33.7476 4.56369 32.9862 4.72819L32.9862 4.72819Z" id="Shape" fill="#FFFFFF" stroke="none" clip-path="url(#clip_1)" />
+	</g>
+</svg>

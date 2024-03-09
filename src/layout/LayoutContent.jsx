@@ -4,6 +4,10 @@ import ProfileCard from "../content/section/Profile";
 import Calendars from "../content/section/Calendars";
 import SocialStatic from "../content/section/SocialCard";
 
+// center
+
+// right
+
 function LayoutContent() {
   return (
     <>
