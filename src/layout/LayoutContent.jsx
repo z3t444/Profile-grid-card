@@ -4,6 +4,7 @@ import ProfileCard from "../content/section/Profile";
 import Calendars from "../content/section/Calendars";
 import SocialStatic from "../content/section/SocialCard";
 import CommunityCard from "../content/section/CommunityCard";
+import RecoFollowSection from "../content/section/RecoFollow";
 
 // center
 
@@ -24,6 +25,7 @@ function LayoutContent() {
           <Calendars />
           <SocialStatic />
           <CommunityCard />
+          <RecoFollowSection />
         </div>
         <div>{/* center */}</div>
         <div>{/* right */}</div>

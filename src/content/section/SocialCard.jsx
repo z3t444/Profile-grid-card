@@ -10,7 +10,7 @@ function SocialCard() {
         <div className="flex px-5 py-10 items-center gap-3">
           <img src={ZetAsset} width={50} className="rounded-full" alt="" />
           <div className="grid">
-            <span className="text-gray-100 font-medium">Afkar Ezi</span>
+            <span className="text-gray-100 font-medium">zzz_3t44</span>
             <span className="text-sm text-gray-400 mt-1">@z3t444</span>
           </div>
         </div>
