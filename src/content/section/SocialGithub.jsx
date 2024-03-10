@@ -6,7 +6,7 @@ function SocialGithub() {
     <>
       <div className="max-w-sm px-6 py-5 bg-[#171717] rounded-2xl">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-3">
             <div className="asset-profile">
               <img src={ZetAsset} width={70} className="rounded-full" alt="" />
             </div>
@@ -21,18 +21,18 @@ function SocialGithub() {
         </div>
 
         {/* static */}
-        <div className="flex mt-10 text-start items-center gap-10">
+        <div className="flex mt-10 text-start items-center gap-16">
           <div>
             <p className="text-gray-400">Followers</p>
-            <p className="text-gray-100 text-2xl mt-1">8</p>
+            <p className="text-gray-100 text-xl mt-1">8</p>
           </div>
           <div>
             <p className="text-gray-400">Following</p>
-            <p className="text-gray-100 text-2xl mt-1">10</p>
+            <p className="text-gray-100 text-xl mt-1">10</p>
           </div>
           <div>
             <p className="text-gray-400">Repository</p>
-            <p className="text-gray-100 text-2xl mt-1">30</p>
+            <p className="text-gray-100 text-xl mt-1">30</p>
           </div>
         </div>
       </div>

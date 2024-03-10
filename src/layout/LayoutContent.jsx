@@ -8,6 +8,9 @@ import RecoFollowSection from "../content/section/RecoFollow";
 
 // center
 import GitHubSocial from "../content/section/SocialGithub";
+import TweetCard from "../content/section/TweetCard";
+import TimelineCard from "../content/section/TimeLine";
+import CookiesCard from "../content/section/CookiesCard";
 // right
 
 function LayoutContent() {
@@ -18,7 +21,7 @@ function LayoutContent() {
         <HeaderSection />
       </div>
       {/* card layout */}
-      <div className="flex items-center gap-5">
+      <div className="flex items-center justify-center gap-4">
         {/* left */}
         <div>
           <ProfileCard />
@@ -30,6 +33,9 @@ function LayoutContent() {
         <div>
           {/* center */}
           <GitHubSocial />
+          <TweetCard />
+          <TimelineCard />
+          <CookiesCard />
         </div>
         <div>{/* right */}</div>
       </div>
