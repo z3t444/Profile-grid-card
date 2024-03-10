@@ -7,7 +7,7 @@ import CommunityCard from "../content/section/CommunityCard";
 import RecoFollowSection from "../content/section/RecoFollow";
 
 // center
-
+import GitHubSocial from "../content/section/SocialGithub";
 // right
 
 function LayoutContent() {
@@ -18,7 +18,7 @@ function LayoutContent() {
         <HeaderSection />
       </div>
       {/* card layout */}
-      <div>
+      <div className="flex items-center gap-5">
         {/* left */}
         <div>
           <ProfileCard />
@@ -27,7 +27,10 @@ function LayoutContent() {
           <CommunityCard />
           <RecoFollowSection />
         </div>
-        <div>{/* center */}</div>
+        <div>
+          {/* center */}
+          <GitHubSocial />
+        </div>
         <div>{/* right */}</div>
       </div>
     </>

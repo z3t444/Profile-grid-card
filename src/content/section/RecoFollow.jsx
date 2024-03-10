@@ -23,7 +23,7 @@ function RecoFollow() {
               </div>
             </div>
             <div>
-              <button className="px-4 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
+              <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
                 <a className="text-sm text-gray-200" href="/">
                   Follow
                 </a>
@@ -40,7 +40,7 @@ function RecoFollow() {
               </div>
             </div>
             <div>
-              <button className="px-4 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
+              <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
                 <a className="text-sm text-gray-200" href="/">
                   Follow
                 </a>
@@ -57,7 +57,7 @@ function RecoFollow() {
               </div>
             </div>
             <div>
-              <button className="px-4 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
+              <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
                 <a className="text-sm text-gray-200" href="/">
                   Follow
                 </a>
