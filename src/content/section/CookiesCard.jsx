@@ -8,11 +8,11 @@ function CookiesCard() {
           </div>
           <div className="flex items-center gap-3">
             <button className="hover:scale-95 duration-300">
-              <a className="text-yellow-400" href="/">
+              <a className="text-yellow-400 text-sm" href="/">
                 Learn More
               </a>
             </button>
-            <h3 className="text-gray-400">Close</h3>
+            <h3 className="text-gray-400 text-sm">Close</h3>
           </div>
         </div>
       </div>
