@@ -11,6 +11,7 @@ import GitHubSocial from "../content/section/SocialGithub";
 import TweetCard from "../content/section/TweetCard";
 import TimelineCard from "../content/section/TimeLine";
 import CookiesCard from "../content/section/CookiesCard";
+import CardTeam from '../content/section/CardTeam'
 // right
 
 function LayoutContent() {
@@ -36,6 +37,7 @@ function LayoutContent() {
           <TweetCard />
           <TimelineCard />
           <CookiesCard />
+          <CardTeam/>
         </div>
         <div>{/* right */}</div>
       </div>
