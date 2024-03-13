@@ -17,15 +17,15 @@ function SocialCard() {
         <div className="flex gap-4 justify-around items-center">
           <div className="grid">
             <span className="text-gray-400 font-medium">Post</span>
-            <span className="text-gray-200 text-lg mt-1">5</span>
+            <span className="text-gray-200 text-xl mt-1">5</span>
           </div>
           <div className="grid">
             <span className="text-gray-400 font-medium">Followers</span>
-            <span className="text-gray-200 text-lg mt-1">352</span>
+            <span className="text-gray-200 text-xl mt-1">352</span>
           </div>
           <div className="grid">
             <span className="text-gray-400 font-medium">Following</span>
-            <span className="text-gray-200 text-lg mt-1">197</span>
+            <span className="text-gray-200 text-xl mt-1">197</span>
           </div>
         </div>
         <div className="box-icons mt-12 flex items-center mb-10 justify-around px-5">
