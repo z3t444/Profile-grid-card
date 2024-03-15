@@ -13,6 +13,7 @@ import TimelineCard from "../content/section/TimeLine";
 import CookiesCard from "../content/section/CookiesCard";
 import CardTeam from "../content/section/CardTeam";
 import FavSection from "../content/section/FavSection";
+import SprintFork from "../content/section/SprintFork";
 // right
 
 function LayoutContent() {
@@ -40,6 +41,7 @@ function LayoutContent() {
           <CookiesCard />
           <CardTeam />
           <FavSection />
+          <SprintFork/>
         </div>
         <div>{/* right */}</div>
       </div>
