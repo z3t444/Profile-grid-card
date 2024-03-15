@@ -8,7 +8,7 @@ function CardTeam() {
           <p className="text-sm font-medium text-gray-200">My team</p>
           <p className="text-sm text-gray-200 font-medium">4ToDay</p>
         </div>
-        <div className="flex items-center justify-around mb-3 mt-6">
+        <div className="flex items-center justify-around mb-3 mt-7">
           <div className="px-5 py-5 bg-gradient-to-br xl:w-36 from-[#86ffb6] to-[#547dea] rounded-2xl">
             <div className="flex justify-center">
               <img src={ZetAsset} alt="" className="rounded-full" width={70} />
