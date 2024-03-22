@@ -41,7 +41,7 @@ function LayoutContent() {
           <CookiesCard />
           <CardTeam />
           <FavSection />
-          <SprintFork/>
+          <SprintFork />
         </div>
         <div>{/* right */}</div>
       </div>
