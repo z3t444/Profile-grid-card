@@ -26,7 +26,7 @@ function LayoutContent() {
         <HeaderSection />
       </div>
       {/* card layout */}
-      <div className="flex items-center justify-center gap-4">
+      <div className="grid lg:flex xl:flex items-center justify-center gap-4">
         {/* left */}
         <div>
           <ProfileCard />

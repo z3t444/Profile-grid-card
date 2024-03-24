@@ -13,17 +13,17 @@ function SocialMediaCard() {
         <div className="flex mt-6 items-center justify-center gap-7">
           <div>
             <a href="">
-              <img className="p-3 hover:scale-95 duration-300 rounded-lg bg-blue-400" src={Insta} alt="" />
+              <img className="p-3 hover:scale-95 duration-300 rounded-xl bg-blue-400" src={Insta} alt="" />
             </a>
           </div>
           <div>
             <a href="">
-              <img className="p-3 hover:scale-95 duration-300 rounded-lg bg-red-500" src={YouTube} alt="" />
+              <img className="p-3 hover:scale-95 duration-300 rounded-xl bg-red-500" src={YouTube} alt="" />
             </a>
           </div>
           <div>
             <a href="">
-              <img className="p-3 hover:scale-95 duration-300 rounded-lg bg-sky-400" src={LinkedIn} alt="" />
+              <img className="p-3 hover:scale-95 duration-300 rounded-xl bg-sky-400" src={LinkedIn} alt="" />
             </a>
           </div>
         </div>
