@@ -52,17 +52,33 @@ function LayoutContent() {
         </div>
         <div>
           {/* center */}
-          <div>
+          <div data-aos="flip-right" data-aos-delay="300">
             <GitHubSocial />
           </div>
-          <TweetCard />
-          <TimelineCard />
-          <CookiesCard />
-          <CardTeam />
-          <FavSection />
-          <SprintFork />
-          <SkillCard />
-          <CardSocial />
+          <div>
+            <TweetCard />
+          </div>
+          <div data-aos="flip-down" data-aos-duration="1300">
+            <TimelineCard />
+          </div>
+          <div data-aos="flip-right" data-aos-once="false" data-aos-offset="40">
+            <CookiesCard />
+          </div>
+          <div data-aos="flip-up" data-aos-delay="50" data-aos-once="false" data-aos-offset="40">
+            <CardTeam />
+          </div>
+          <div data-aos="flip-right">
+            <FavSection />
+          </div>
+          <div data-aos="flip-left" data-aos-duration="1500">
+            <SprintFork />
+          </div>
+          <div data-aos="flip-down" data-aos-offset="500">
+            <SkillCard />
+          </div>
+          <div data-aos="flip-right">
+            <CardSocial />
+          </div>
         </div>
         <div>{/* right */}</div>
       </div>

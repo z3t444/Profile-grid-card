@@ -3,7 +3,7 @@ import Asset from "../components/SprintForkActifity/asset/unnamed.png";
 function SprintFork() {
   return (
     <>
-      <div className="border-2xl py-12 bg-gradient-to-r mt-5 rounded-xl from-[#ffb132] to-[#fb8c9d]">
+      <div className="border-2xl py-7 bg-gradient-to-r mt-5 rounded-xl from-[#ffb132] to-[#fb8c9d]">
         <div className="flex items-center gap-5 justify-center">
           {/* desk */}
           <div className="grid">

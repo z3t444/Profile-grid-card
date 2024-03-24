@@ -1,7 +1,7 @@
 function CookiesCard() {
   return (
     <>
-      <div className="max-w-sm px-5 mt-5 bg-[#171717] rounded-2xl py-4">
+      <div className="max-w-sm px-5 mt-5 bg-[#171717] rounded-2xl py-9">
         <div className="flex justify-between items-center">
           <div>
             <h3 className="text-gray-200 font-medium">we use Cookies</h3>
