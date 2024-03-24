@@ -19,12 +19,12 @@ function RecoFollow() {
               <img src={ZetAsset} width={50} className="rounded-full" alt="" />
               <div className="grid text-sm">
                 <p className="text-gray-200">Dzaky Abdurrahman</p>
-                <p className="text-gray-500 text-[12px]">@mhm_dzaky</p>
+                <p className="text-gray-500 text-[12px]">@dzakyabdurhmn</p>
               </div>
             </div>
             <div>
               <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
-                <a className="text-sm text-gray-200" href="/">
+                <a className="text-sm text-gray-200" href="https://www.instagram.com/dzakyabdurhmn">
                   Follow
                 </a>
               </button>
@@ -35,13 +35,13 @@ function RecoFollow() {
             <div className="flex items-center gap-3">
               <img src={ZetAsset} width={50} className="rounded-full" alt="" />
               <div className="grid text-sm">
-                <p className="text-gray-200">Dzaky Abdurrahman</p>
-                <p className="text-gray-500 text-[12px]">@mhm_dzaky</p>
+                <p className="text-gray-200">Renjana Putri</p>
+                <p className="text-gray-500 text-[12px]">@rnj.vnxmfl</p>
               </div>
             </div>
             <div>
               <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
-                <a className="text-sm text-gray-200" href="/">
+                <a className="text-sm text-gray-200" href="https://www.instagram.com/rnj.vnxmfl">
                   Follow
                 </a>
               </button>
@@ -52,13 +52,13 @@ function RecoFollow() {
             <div className="flex items-center gap-3">
               <img src={ZetAsset} width={50} className="rounded-full" alt="" />
               <div className="grid text-sm">
-                <p className="text-gray-200">Dzaky Abdurrahman</p>
-                <p className="text-gray-500 text-[12px]">@mhm_dzaky</p>
+                <p className="text-gray-200">Rafael Destiano</p>
+                <p className="text-gray-500 text-[12px]">@rafdmrs</p>
               </div>
             </div>
             <div>
               <button className="px-4 hover:scale-95 duration-300 rounded-full bg-gradient-to-r from-[#f981c3] to-[#8d5af0]">
-                <a className="text-sm text-gray-200" href="/">
+                <a className="text-sm text-gray-200" href="https://www.instagram.com/rafdmrs">
                   Follow
                 </a>
               </button>

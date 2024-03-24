@@ -14,7 +14,7 @@ function CommunityCard() {
               On Building a global <br />
               mindset
             </h3>
-            <p className="text-gray-600 text-[13px] max-w-[300px] mb-5 mt-4 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius molestiae laudantium labore atque praesentium sunt, nobis deserunt a ipsam dicta illo error unde illum natus quam. Officiis, fuga deserunt.</p>
+            <p className="text-gray-400 text-[13px] max-w-[300px] mb-5 mt-4 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius molestiae laudantium labore atque praesentium sunt, nobis deserunt a ipsam dicta illo error unde illum natus quam. Officiis, fuga deserunt.</p>
           </div>
         </div>
       </div>

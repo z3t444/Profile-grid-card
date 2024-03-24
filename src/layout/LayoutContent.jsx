@@ -15,6 +15,7 @@ import CardTeam from "../content/section/CardTeam";
 import FavSection from "../content/section/FavSection";
 import SprintFork from "../content/section/SprintFork";
 import SkillCard from "../content/section/SkillCard";
+import CardSocial from "../content/section/SocialMediaCard";
 // right
 
 function LayoutContent() {
@@ -44,6 +45,7 @@ function LayoutContent() {
           <FavSection />
           <SprintFork />
           <SkillCard />
+          <CardSocial />
         </div>
         <div>{/* right */}</div>
       </div>
