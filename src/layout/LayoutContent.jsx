@@ -1,6 +1,6 @@
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
+// integration data AOS
 AOS.init();
 
 import HeaderSection from "../content/section/Header";
@@ -34,15 +34,27 @@ function LayoutContent() {
       <div className="grid lg:flex xl:flex items-center justify-center gap-4">
         {/* left */}
         <div>
-          <ProfileCard />
-          <Calendars />
-          <SocialStatic />
-          <CommunityCard />
-          <RecoFollowSection />
+          <div data-aos-delay="150" data-aos="flip-left">
+            <ProfileCard />
+          </div>
+          <div data-aos="flip-right">
+            <Calendars />
+          </div>
+          <div data-aos-duration="1000" data-aos="flip-left">
+            <SocialStatic />
+          </div>
+          <div data-aos="flip-up" data-aos-duration="1000">
+            <CommunityCard />
+          </div>
+          <div data-aos="flip-right">
+            <RecoFollowSection />
+          </div>
         </div>
         <div>
           {/* center */}
-          <GitHubSocial />
+          <div>
+            <GitHubSocial />
+          </div>
           <TweetCard />
           <TimelineCard />
           <CookiesCard />
