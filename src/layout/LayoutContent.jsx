@@ -1,3 +1,8 @@
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
+
 import HeaderSection from "../content/section/Header";
 // left
 import ProfileCard from "../content/section/Profile";
