@@ -24,6 +24,7 @@ import CardSocial from "../content/section/SocialMediaCard";
 
 // right
 import RunningProject from "../content/section/RunningProject";
+import CardTeam2 from "../content/section/CardTeam2";
 
 function LayoutContent() {
   return (
@@ -86,6 +87,9 @@ function LayoutContent() {
           {/* right */}
           <div data-aos="flip-left" data-aos-duration="500">
             <RunningProject />
+          </div>
+          <div data-aos="flip-down" data-aos-offset="300">
+            <CardTeam2 />
           </div>
         </div>
       </div>
