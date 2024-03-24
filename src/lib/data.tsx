@@ -1,5 +1,5 @@
 
 
 export const profiles = [
-   { img: 'https://via.placeholder.com/2000' },
+   { img: 'http://localhost:5173/src/content/asset/zetAsset.jpg' },
 ];

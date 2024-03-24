@@ -21,7 +21,9 @@ import FavSection from "../content/section/FavSection";
 import SprintFork from "../content/section/SprintFork";
 import SkillCard from "../content/section/SkillCard";
 import CardSocial from "../content/section/SocialMediaCard";
+
 // right
+import RunningProject from "../content/section/RunningProject";
 
 function LayoutContent() {
   return (
@@ -55,7 +57,7 @@ function LayoutContent() {
           <div data-aos="flip-right" data-aos-delay="300">
             <GitHubSocial />
           </div>
-          <div>
+          <div data-aos="flip-up" data-aos-duration="800">
             <TweetCard />
           </div>
           <div data-aos="flip-down" data-aos-duration="1300">
@@ -80,7 +82,12 @@ function LayoutContent() {
             <CardSocial />
           </div>
         </div>
-        <div>{/* right */}</div>
+        <div>
+          {/* right */}
+          <div data-aos="flip-left" data-aos-duration="500">
+            <RunningProject />
+          </div>
+        </div>
       </div>
     </>
   );
