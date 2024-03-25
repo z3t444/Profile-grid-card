@@ -77,10 +77,10 @@ function LayoutContent() {
             <div data-aos="flip-right">
               <FavSection />
             </div>
-            <div data-aos="flip-left" data-aos-duration="1500">
+            <div data-aos="flip-left" data-aos-duration="500">
               <SprintFork />
             </div>
-            <div data-aos="flip-down" data-aos-offset="500">
+            <div data-aos="flip-down" data-aos-delay="50">
               <SkillCard />
             </div>
             <div data-aos="flip-right">
