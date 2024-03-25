@@ -65,10 +65,10 @@ function LayoutContent() {
           <div data-aos="flip-down" data-aos-duration="1300">
             <TimelineCard />
           </div>
-          <div data-aos="flip-right" data-aos-once="false" data-aos-offset="40">
+          <div data-aos="flip-right"  data-aos-offset="40">
             <CookiesCard />
           </div>
-          <div data-aos="flip-up" data-aos-delay="50" data-aos-once="false" data-aos-offset="40">
+          <div data-aos="flip-up" data-aos-delay="50" data-aos-offset="40">
             <CardTeam />
           </div>
           <div data-aos="flip-right">
