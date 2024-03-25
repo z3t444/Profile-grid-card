@@ -27,73 +27,77 @@ import RunningProject from "../content/section/RunningProject";
 import CardTeam2 from "../content/section/CardTeam2";
 import Framework from "../content/section/Framework";
 
+// for css test
+import "./layout.css";
 function LayoutContent() {
   return (
     <>
-      {/* header Section */}
-      <div>
-        <HeaderSection />
-      </div>
-      {/* card layout */}
-      <div className="grid lg:flex xl:flex items-center justify-center gap-4">
-        {/* left */}
+      <div className="all-content">
+        {/* header Section */}
         <div>
-          <div data-aos-delay="150" data-aos="flip-left">
-            <ProfileCard />
-          </div>
-          <div data-aos="flip-right">
-            <Calendars />
-          </div>
-          <div data-aos-duration="1000" data-aos="flip-left">
-            <SocialStatic />
-          </div>
-          <div data-aos="flip-up" data-aos-duration="1000">
-            <CommunityCard />
-          </div>
-          <div data-aos="flip-right">
-            <RecoFollowSection />
-          </div>
+          <HeaderSection />
         </div>
-        <div>
-          {/* center */}
-          <div data-aos="flip-right" data-aos-delay="300">
-            <GitHubSocial />
+        {/* card layout */}
+        <div className="grid lg:flex xl:flex items-center justify-center gap-4">
+          {/* left */}
+          <div>
+            <div data-aos-delay="150" data-aos="flip-left">
+              <ProfileCard />
+            </div>
+            <div data-aos="flip-right">
+              <Calendars />
+            </div>
+            <div data-aos-duration="1000" data-aos="flip-left">
+              <SocialStatic />
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1000">
+              <CommunityCard />
+            </div>
+            <div data-aos="flip-right">
+              <RecoFollowSection />
+            </div>
           </div>
-          <div data-aos="flip-up" data-aos-duration="800">
-            <TweetCard />
+          <div>
+            {/* center */}
+            <div data-aos="flip-right" data-aos-delay="300">
+              <GitHubSocial />
+            </div>
+            <div data-aos="flip-up" data-aos-duration="800">
+              <TweetCard />
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1300">
+              <TimelineCard />
+            </div>
+            <div data-aos="flip-right" data-aos-offset="40">
+              <CookiesCard />
+            </div>
+            <div data-aos="flip-up" data-aos-delay="50" data-aos-offset="40">
+              <CardTeam />
+            </div>
+            <div data-aos="flip-right">
+              <FavSection />
+            </div>
+            <div data-aos="flip-left" data-aos-duration="1500">
+              <SprintFork />
+            </div>
+            <div data-aos="flip-down" data-aos-offset="500">
+              <SkillCard />
+            </div>
+            <div data-aos="flip-right">
+              <CardSocial />
+            </div>
           </div>
-          <div data-aos="flip-down" data-aos-duration="1300">
-            <TimelineCard />
-          </div>
-          <div data-aos="flip-right"  data-aos-offset="40">
-            <CookiesCard />
-          </div>
-          <div data-aos="flip-up" data-aos-delay="50" data-aos-offset="40">
-            <CardTeam />
-          </div>
-          <div data-aos="flip-right">
-            <FavSection />
-          </div>
-          <div data-aos="flip-left" data-aos-duration="1500">
-            <SprintFork />
-          </div>
-          <div data-aos="flip-down" data-aos-offset="500">
-            <SkillCard />
-          </div>
-          <div data-aos="flip-right">
-            <CardSocial />
-          </div>
-        </div>
-        <div>
-          {/* right */}
-          <div data-aos="flip-left" data-aos-duration="500">
-            <RunningProject />
-          </div>
-          <div data-aos="flip-down" data-aos-offset="200">
-            <CardTeam2 />
-          </div>
-          <div data-aos="flip-up" data-aos-delay="50" data-aos-offset="40">
-            <Framework />
+          <div>
+            {/* right */}
+            <div data-aos="flip-left" data-aos-duration="500">
+              <RunningProject />
+            </div>
+            <div data-aos="flip-down" data-aos-offset="200">
+              <CardTeam2 />
+            </div>
+            <div data-aos="flip-up" data-aos-delay="50" data-aos-offset="40">
+              <Framework />
+            </div>
           </div>
         </div>
       </div>
