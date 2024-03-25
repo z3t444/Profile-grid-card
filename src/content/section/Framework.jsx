@@ -9,14 +9,13 @@ import Sass from "../components/Framework/asset/Sass.svg";
 import Svelte from "../components/Framework/asset/Svelte.svg";
 import Tailwindcss from "../components/Framework/asset/Tailwindcss.svg";
 import Vue from "../components/Framework/asset/Vue.svg";
-import Vuetify from "../components/Framework/asset/Vuetify.svg"
 
 function Framework() {
   return (
     <>
       <div className="max-w-sm rounded-2xl px-6 py-8 mt-5 bg-[#171717]">
         <marquee direction="">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-10">
             <img src={Css} alt="" />
             <img src={Html} alt="" />
             <img src={Javascript} alt="" />
@@ -28,7 +27,6 @@ function Framework() {
             <img src={Svelte} alt="" />
             <img src={Tailwindcss} alt="" />
             <img src={Vue} alt="" />
-            <img src={Vuetify} alt="" />
           </div>
         </marquee>
       </div>
